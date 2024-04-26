@@ -2,7 +2,7 @@ import React from 'react';
 import { View,Text } from 'react-native';
 
 
-export default function app(){
+export function Signin() {
   return(
     <View>
       <Text>Hello word</Text>

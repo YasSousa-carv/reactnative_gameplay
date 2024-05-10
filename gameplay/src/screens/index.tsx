@@ -11,7 +11,7 @@ export function Signin() {
 
     <View style={styles.container}> 
     <Text>
-        SEJA BEM VINDO AO MUNDO VERMELHO        
+        SEJA BEM VINDO AO MUNDO JOIAS FALSAS        
     </Text>
    <TextInput style={styles.input}
    onChangeText={setText}

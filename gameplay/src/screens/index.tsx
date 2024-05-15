@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import { View,Text, TextInput } from 'react-native';
+import { View,Text,Image } from 'react-native';
 import { styles} from './styles';
+import IllustrationImg from '../../assets/illustration.png';
 
 export function Signin() {
   const [text,  setText] = useState ("Digite alguma coisa");
@@ -10,16 +11,7 @@ export function Signin() {
   return(
 
     <View style={styles.container}> 
-    <Text>
-        SEJA BEM VINDO AO MUNDO JOIAS FALSAS        
-    </Text>
-   <TextInput style={styles.input}
-   onChangeText={setText}
-   />
-
-     <Text>
-      Você digitou: {text}
-     </Text>       
+    <Image source = {}/>      
     </View>
   )
 } 

@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import { theme } from "../global/styles/theme";
 export const styles = StyleSheet.create({
     container : {
         flex:1,
@@ -10,5 +11,9 @@ export const styles = StyleSheet.create({
         height: 50,
         width: 200,
         borderBottomWidth: 2
+    },
+    image:{
+        width:'100%',
+        height:360
     }
-}) 
+})

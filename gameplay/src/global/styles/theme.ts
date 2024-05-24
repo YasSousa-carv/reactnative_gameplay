@@ -3,8 +3,9 @@ import { Header } from "react-native/Libraries/NewAppScreen";
 export const theme = {
         colors:{
             backgorung: '0D133D',
-            headin:'DDE3F0',
-            header: '#131B5A'
+            heading:'DDE3F0',
+            primary: 'E51C44',
+            line:'#991F36'
         }
 
 

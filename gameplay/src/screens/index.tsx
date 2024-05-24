@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 import { View,Text,TextInput,Image,StatusBar } from 'react-native';
 import { styles} from './styles';
+
 import IllustrationImg from '../assets/illustration.png';
+import { ButtonIcon } from "../components/ButtonIcon";
+
+
 export function Signin() {
-
-
-
   return(
 
     <View style={styles.container}>
@@ -22,7 +23,9 @@ export function Signin() {
         Crie seus grupos para jogas seus games{`\n`}
         favoritos com seus amigos
       </Text>
+      <ButtonIcon/>
     </View>
+    
     </View>
   )
-} 
+}
